@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "558/gSMUa4BeE1PCysGOsr/j9sz61OgYrgcLef51bqa+nze6bO0rpMM5qXkwJqyi6koEnv1ZU8pUDP3YqorOjA==",
+  "dgSpecHash": "zwDH+0FENk1AQxm/aG+cZqbMC16cvvRrWXxhgZ3ORTN3Yoc00Gpq8yALyYsj8dZ5xf0ICXAfMRGvHb9uWirzOA==",
   "success": true,
-  "projectFilePath": "D:\\DaingApp\\API\\API.csproj",
+  "projectFilePath": "D:\\DaingApp\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FaznaF\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\FaznaF\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

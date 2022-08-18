@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DaingApp\\API\\API.csproj": {}
+    "D:\\DaingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\DaingApp\\API\\API.csproj": {
+    "D:\\DaingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DaingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\DaingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\DaingApp\\API\\API.csproj",
+        "projectPath": "D:\\DaingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\FaznaF\\.nuget\\packages\\",
-        "outputPath": "D:\\DaingApp\\API\\obj\\",
+        "outputPath": "D:\\DaingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FaznaF\\AppData\\Roaming\\NuGet\\NuGet.Config",
