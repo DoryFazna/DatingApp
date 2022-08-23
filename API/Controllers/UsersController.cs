@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using API.Data;
 using API.DTOs;
@@ -37,6 +38,30 @@ namespace API.Controllers
             return await _userRepository.GetMemberAsync(username);
   
             
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto){
+            //This will give the username from the token that the API used to authenticate.. this is the user we are gonna update. 
+            var username = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            var user = await _userRepository.GetUserByUsernameAsync(username);
+
+            //automapper will automatically maps the values to user object. we dont need to specify individually
+            _mapper.Map(memberUpdateDto, user);
+
+            //Now this user is flagged. that it needs to be updated. 
+            _userRepository.Update(user);
+
+            if(await _userRepository.SaveAllAsync()) return NoContent();
+
+            return BadRequest("Failed to update user");
+
+
+
+
+
+
         }
     }
 }

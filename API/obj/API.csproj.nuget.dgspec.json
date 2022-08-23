@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DaingApp\\api\\API.csproj": {}
+    "D:\\DaingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\DaingApp\\api\\API.csproj": {
+    "D:\\DaingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DaingApp\\api\\API.csproj",
+        "projectUniqueName": "D:\\DaingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\DaingApp\\api\\API.csproj",
+        "projectPath": "D:\\DaingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\FaznaF\\.nuget\\packages\\",
-        "outputPath": "D:\\DaingApp\\api\\obj\\",
+        "outputPath": "D:\\DaingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FaznaF\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
