@@ -14,6 +14,7 @@ export class MembersService {
 
   constructor(private http: HttpClient) {}
   getMembers() {
+    //of => sending members as Observable
     if (this.members.length > 0) return of(this.members);
     return this.http.get<Member[]>(this.baseUrl + 'users').pipe(
       map((members) => {
@@ -37,5 +38,14 @@ export class MembersService {
         this.members[index] = member;
       })
     );
+  }
+
+  setMainPhoto(photoId: number) {
+    //since its a put mrhthod, u must send smthng in the body.. so {}
+    return this.http.put(this.baseUrl + 'users/set-main-photo/' + photoId, {});
+  }
+
+  deletePhoto(photoId: number) {
+    return this.http.delete(this.baseUrl + 'users/delete-photo/' + photoId);
   }
 }
